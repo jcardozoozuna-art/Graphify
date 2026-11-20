@@ -1,6 +1,7 @@
 import { CONFIG } from './config.js';
 import { SERVICES } from './services.js';
 import { whatsappLink } from './whatsapp.js';
+import { WORKS, workTile } from './works.js';
 
 function renderServices() {
   const grid = document.querySelector('[data-services]');
@@ -29,5 +30,10 @@ function wireContact() {
   document.querySelector('[data-year]').textContent = new Date().getFullYear();
 }
 
+function renderWorks() {
+  document.querySelector('[data-works]').innerHTML = WORKS.map(workTile).join('');
+}
+
 renderServices();
+renderWorks();
 wireContact();
