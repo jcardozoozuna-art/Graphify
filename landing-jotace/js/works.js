@@ -2,7 +2,7 @@
 export const WORKS = [
   { rubro: 'Cafetería', tipo: 'Branding', img: 'img/alesso.jpg', color: '#354d38' },
   { rubro: 'Detailing automotriz', tipo: 'Branding', img: 'img/rg-detailing.jpg', color: '#101113' },
-  { rubro: 'Spa de uñas y cabello', tipo: 'Identidad visual', img: null, color: '#4a2b3a' },
+  { rubro: 'Spa de uñas y cabello', tipo: 'Identidad visual', img: 'img/paloma.jpg', color: '#4a2b3a' },
   { rubro: 'Lubricentro', tipo: 'Contenido', img: 'img/lubri2.jpg', color: '#1d2f5c' },
 ];
 
